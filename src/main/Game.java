@@ -8,6 +8,6 @@ public class Game {
         gamePanel = new GamePanel();
 
         gameWindow = new GameWindow(gamePanel); // Creating a new GameWindow instance with the provided GamePanel
-
+        gamePanel.requestFocus();
      }
  }
