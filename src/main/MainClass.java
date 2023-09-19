@@ -4,10 +4,9 @@ import java.util.Scanner;
 
 public class MainClass {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+       Game game = new Game();
 
-        System.out.println("sds");
-        String s = scan.next();
+
 
     }
 }
